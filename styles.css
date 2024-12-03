@@ -1,0 +1,71 @@
+    /*
+Program name: styles.css
+Author: Zara Yasmin Dhanji
+Date created: Sep 19th 2024
+Date last edited: Sep 19th 2024
+Version: 1.0
+Description: CSS file for Homework 3 for MIS3371.
+ */
+body {
+    background-color: rgb(243, 188, 202);
+    font-family: "Arial", sans-serif;
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+.footer {
+  background-color:wheat;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+height: 100px;
+
+}
+
+ h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: normal;
+    color: red;
+}
+table.form, tr.form, td.form {
+  width: 70%;
+  opacity: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:whitesmoke;
+  padding: 0px;
+  border-spacing: 00px;
+  color:black ;
+  font-weight: bold;
+}
+th.form {
+  font-family: Arial, sans-serif;
+  background-color: wheat ;
+  padding: 10px;
+  border-spacing: 10px;
+  color:red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textsize1 
+{
+    width:10px
+}
+.textsize5 
+{
+    width:40px
+}
+.slider::after
+{
+  content='10'
+}
+.slider::before{content='0'}
+
+.viewonly
+{
+  color:blue
+  
+}
+
